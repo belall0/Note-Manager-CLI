@@ -4,17 +4,20 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-    "note": "./index.js"
+    "note": "index.js"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "command-line note taking",
+    "note",
+    "note taking"
+  ],
+  "author": "Belal Muhammad",
+  "license": "MIT",
+  "description": "A simple command line note taking app",
   "dependencies": {
-    "@types/node": "^20.12.12",
     "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12"
   }
 }

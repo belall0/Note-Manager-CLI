@@ -73,18 +73,6 @@ yargs(hideBin(process.argv))
     }
   )
   .command(
-    "web [port]",
-    "launch website to see notes",
-    yargs => {
-      yargs.positional("port", {
-        type: "number",
-        default: 5000,
-        describe: "port to bind on",
-      });
-    },
-    async argv => {}
-  )
-  .command(
     "clean",
     "remove all notes",
     () => {},
